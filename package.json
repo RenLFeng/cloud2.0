@@ -1,0 +1,72 @@
+{
+  "name": "cloud",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@antv/f2": "^3.4.3",
+    "@vant/touch-emulator": "^1.1.0",
+    "amfe-flexible": "^2.2.1",
+    "axios": "^0.18.0",
+    "core-js": "^3.4.7",
+    "exif-js": "^2.3.0",
+    "js-cookie": "^2.2.0",
+    "mint-ui": "^2.2.13",
+    "qrcode": "^1.4.4",
+    "register-service-worker": "^1.6.2",
+    "sprintf-js": "^1.1.2",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vant": "^2.2.8",
+    "vue": "^2.6.10",
+    "vue-crop-image-mobile": "^1.0.4",
+    "vue-i18n": "^8.14.1",
+    "vue-route-transition": "^1.1.1",
+    "vue-router": "^3.1.3",
+    "vue-wxlogin": "^1.0.1",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.1",
+    "@vue/cli-plugin-eslint": "^4.1.1",
+    "@vue/cli-plugin-pwa": "^4.1.1",
+    "@vue/cli-plugin-unit-mocha": "^4.1.1",
+    "@vue/cli-service": "^4.1.1",
+    "@vue/eslint-config-prettier": "^5.1.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-component": "^1.1.1",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "chai": "^4.1.2",
+    "compression-webpack-plugin": "^3.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-vue": "^5.0.0",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "node-sass": "^4.9.2",
+    "postcss-pxtorem": "^4.0.1",
+    "prettier": "^1.19.1",
+    "sass-loader": "^7.0.3",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "vconsole": "^3.3.4",
+    "vue-cli-plugin-element": "^1.0.1",
+    "vue-template-compiler": "^2.6.10",
+    "weixin-js-sdk": "^1.4.0-test"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
